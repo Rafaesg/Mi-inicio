@@ -1,0 +1,78 @@
+1) Estilo de escritura "Conversion" 
+
+a) camelCase: rafaMicro ===> 1° palabra minuscula, 2° palabra mayuscula.
+
+b) PascalCase: RafaMicro ===> Comienzo De La Palabra Mayuscula.
+
+c) snake_case: rafa_micro ===> union de la palabra con el uso de la simbologia piso "_".
+
+d) hungara o kebab case: sintaxisRafaMicro ===> union+comienzominuscula+RestoMayuscula.
+
+
+2) Tiempo de programador
+
+a) Tiempo de desarrollo: Directamente con codigo fuente.
+
+b) Tiempo de ejecucion: El programa ejecuta las instrucciones por el desarrollor o programador en modo visual.
+
+
+3) "ERP": Enterprise Resource Planning= sistema de planificacion de recursos empresariales.
+
+
+4) Sintaxis: Orden y relacion de las palabras o sintograma en la oracion.
+
+
+5) Uso de programa control de versiones: "Git, GitHub". Nota: Importante dominio del uso de un programa de control de versiones.
+
+
+6) Fundamentos de la programacion: 
+-------------Estructuras de Datos--------------------
+
+base 10 
+ 0  1   2   3   4   5   6   7   8   9 
+10  11  12  13  14  15  16  17  18  19
+20  2.  ..  ..  ..  ..  ..  ..  ..  .. 
+..  ..  ..  ..  ..  ..  ..  ..  ..  ..
+
+Base 2= sistema binaria
+
+Ascedente doble:  128    6 4     32    16    8    4    2     1 <====Partida
+
+                                                         0 = 0
+					                 1 = 1  
+						    1    0 = 2   bit: un solo caracter
+					            1    1 = 3  
+						1   0    0 = 4
+						1   0    1 = 5
+						1   1    0 = 0+2+4=6
+						1   1    1 = 7
+                                            1   0   0    0 = 0+0+0+8=8 
+                                            1   0   0    1 = 1+0+0+8=9
+					    1   0   1    0 = 0+2+0+8=10
+                                            1   0   1    1 = 1+2+0+8=11
+					    1   1   0    0 = 0+0+4+8=12 
+				            1   1   0    1 = 1+0+4+8=13
+                 	                    1 	1   1    0 = 0+2+4+8=14
+					    1   1   1    1 = 1+2+4+8=15
+                                        1   0	0   0    0 = 0+0+0+0+16=16
+   				        1   0   0   0    1 = 1+0+0+0+16=17
+				        1   0   0   1    0 = 0+2+0+0+16=18 
+				        1   0   0   1    1 = 1+2+0+0+16=19
+				        1   0   1   0    0 = 0+0+4+0+16=20
+				        1   0   1   0    1 = 1+0+4+0+16=21
+                                        1   0   1   1    0 = 0+2+4+0+16=22
+                                        1   0   1   1    1 = 1+2+4+0+16=23
+                                        1   1   0   0    0 = 0+0+0+8+16=24
+                                        1   1   0   0    1 = 1+0+0+8+16=25
+                                        1   1   0   1    0 = 0+2+0+8+16=26
+                                        1   1   0   1    1 = 1+2+0+8+16=27
+                                        1   1   1   0    0 = 0+0+4+8+16=28
+                                        1   1   1   0    1 = 1+0+4+8+16=29
+                                        1   1   1   1    0 = 0+2+4+8+16=30
+                                        1   1   1   1    1 = 1+2+4+8+16=31    
+                                 .      .   .   .   .    .         
+---------------------------------------Sucevimamente hasta llegar a 128=8bit------------------------------------
+8 bit:Podemos asignar a memoria un max de 255 valor decimal este tipo de valor se conoce como "byte" "8bit=1byte"
+
+
+
